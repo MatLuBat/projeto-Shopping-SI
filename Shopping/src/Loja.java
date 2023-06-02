@@ -55,7 +55,7 @@ public class Loja {
     }
 
     public String toString() {
-        return "Nome = " + nome + "\nQuantidade de Funcionários = " + quantidadeFuncionarios + "\nSalário base dos funcionários = " + salarioBaseFuncionario;
+        return "Nome = " + nome + "\nQuantidade de Funcionários = " + quantidadeFuncionarios + "\nSalário base dos funcionários = " + salarioBaseFuncionario + "\n endereco: \n" + endereco;
     }
     public int gastosComSalario() {
         if (salarioBaseFuncionario == -1) {
